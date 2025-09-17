@@ -163,7 +163,8 @@ python3 generate_script.py --use_docker --host_port 49200 --announce_port <A_Por
 
 -  sunucuip:misal25ilebaslayanport -> 49200/tcp 'e yönlendiriyor. Peer bağlatımızı böyle yapmalıyız.
 
-<img width="327" height="480" alt="image" src="https://github.com/user-attachments/assets/e6a6a841-01ed-44dc-9e54-26864d320f0d" />
+<img width="327" height="480" alt="image" src="https://github.com/user-attachments/assets/c9e4aa26-f8f2-4662-91a3-06519de3dd0e" />
+
 
 
 
