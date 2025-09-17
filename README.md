@@ -12,11 +12,63 @@
 | **Internet Speed**      | 100 Mbps (1 Gbps+ recommended) |
 
 
-| Server         | Link              | Features |
+#### Vast Kayıt : 
+
+| Server Sağlayıcısı        | Kayıt Link              | Neden |
 |------------------|----------------------------|----------------------------|
-| **Vast**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
-| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
-| **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
+| **VAST GPU**          | [Link](https://cloud.vast.ai/?ref_id=228932) | İstediğimiz Sunucular / Kripto Ödeme |
+
+- https://cloud.vast.ai/billing/ 'den Kripto yada Kart ile bakiye ekleyebilirsiniz.
+
+## Bağlanmak için SSH Key Ayarlama : 
+
+- Wsl Kullanıyorsanız CMD / Powershell - Mac'de Terminal Açın
+```bash
+ssh-keygen
+```
+
+![image](https://github.com/user-attachments/assets/ec8c9bac-3397-40da-ac0d-70bcb985a360)
+
+- 3 Soru Yöneltiyor ; 
+```bash
+Enter file in which to save the key (/home/codespace/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again: 
+```
+- İsim değiştirmek isterseniz (/home/codespace/.ssh/id_rsa): 'den sonra isim yazıp enter'e basın.
+- Şifre'ye enter sonrakinede enter diyip geçebilirsiniz.
+
+![image](https://github.com/user-attachments/assets/6e944f73-120c-44e1-9d29-d220352d9594)
+
+- \home\kullanici\.ssh\id_rsa.pub 'ı açın. İçindekini kopyalayın.
+
+-  https://cloud.vast.ai/manage-keys/ - + New'den kayıt edin keyinizi.
+
+![image](https://github.com/user-attachments/assets/3a15ce26-341b-4ca9-8a7a-47d1cd3b927c)
+
+## Sunucu Kiralama : 
+
+![image](https://github.com/user-attachments/assets/5fbb7dcd-ab59-4d63-9bc4-a3b1ec89b2a5)
+
+- Template : Ubuntu 22.04 VM
+- 16 CPU - 3 GHZ üstü EPYC , Ryzen İşlemcili Serverlara Bakabilirsiniz
+- 100 Mbps üstü indirme hızı olan serverlar +
+- Minimum Container alanını 250+ ayarla
+
+- Sunucunu seçip Rent'e basıp kiralayabilirsiniz.
+
+## Sunucuya Giriş ; 
+
+![image](https://github.com/user-attachments/assets/38947105-2719-420d-9d6e-8a87b718d10b)
+
+- Connect'e basın.
+
+![image](https://github.com/user-attachments/assets/cbba0796-733e-4b2b-9c7f-219cc1c69d55)
+
+- Bağlantı için verdiği komutu CMD / Termius Terminale yapıştırıp enterleyin.
+- Size bağlantı sorusu sorar ise yes yazıp enterleyin.
+
+![image](https://github.com/user-attachments/assets/e3a37172-f583-4bfe-b5b0-fba98c42b0de)
 
 ## Project Social Media : 
 - Twitter : https://x.com/PluralisHQ
