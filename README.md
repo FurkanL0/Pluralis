@@ -136,7 +136,7 @@ docker build . -t pluralis_node0
 ## Başlangıç Scriptini Oluşturalım
 
 ```bash
-python3 generate_script.py --use_docker --token <HF_token> --email <email_address>
+python3 generate_script.py --use_docker --host_port 49200 --announce_port <A_Port> --token <HF_token> --email <email_address>
 ```
 
 - HF token : Huggingface'den aldığınız token / key.
