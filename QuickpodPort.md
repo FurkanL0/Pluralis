@@ -1,6 +1,7 @@
 ## Template -- Ann Port ;
 
 - The template is only for illustrative purposes; please select the template that suits your needs.
+- (Turkish) Template sadece nasıl yapıldığını göstermek içindir , kendinize uygun olan template'i seçin
 
 <img width="1077" height="560" alt="image" src="https://github.com/user-attachments/assets/3f347ff3-9575-4c12-b4fa-e6f99061a2cc" />
 
