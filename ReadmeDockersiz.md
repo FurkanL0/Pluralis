@@ -72,9 +72,6 @@ apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-
 screen -S pluralis
 ```
 
-```bash
-cd
-```
 
 ## Dosyaları İndirelim 
 
