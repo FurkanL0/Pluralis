@@ -77,9 +77,10 @@ screen -S pluralis
 
 ```bash
 git clone https://github.com/PluralisResearch/node0
+```
+```bash
 cd node0
 ```
-
 ## Conda
 
 ```bash
