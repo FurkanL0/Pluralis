@@ -22,7 +22,8 @@
 
 ## Sunucu Kiralama : 
 
-![image](https://github.com/user-attachments/assets/5fbb7dcd-ab59-4d63-9bc4-a3b1ec89b2a5)
+<img width="1192" height="725" alt="image" src="https://github.com/user-attachments/assets/ed335e12-e934-473e-a127-65465ec74140" />
+
 
 - Port Ekleme : 
 <img width="347" height="472" alt="image" src="https://github.com/user-attachments/assets/db312479-cb3b-4784-a36c-d113bb479537" />
