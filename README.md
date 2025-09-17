@@ -143,7 +143,7 @@ python3 generate_script.py --use_docker --host_port 49200 --announce_port <A_Por
 ```
 
 - HF token : Huggingface'den aldığınız token / key.
-- Email : Mail Adresiniz.
+- Email : Hugging face Mail Adresiniz.
 
 ## HugginFace Token Almak İçin  ; 
 
