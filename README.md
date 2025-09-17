@@ -162,12 +162,6 @@ python3 generate_script.py --use_docker --token <HF_token> --email <email_addres
 - File start_server.sh is generated. Run ./start_server.sh to join the experiment. yazısı çıkacak.
 
 
-#### Port : 
-
-```bash
-ufw allow 49200/tcp
-```
-
 ## Başlatalım : 
 ```bash
 ./start_server.sh
