@@ -14,7 +14,7 @@
 
 | Server         | Link              | Features |
 |------------------|----------------------------|----------------------------|
-| **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
+| **Vast**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
 | **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
 | **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
 
@@ -57,4 +57,17 @@ docker-compose --version
 ```bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
+```
+
+## Dosyaları İndirelim 
+
+```bash
+git clone https://github.com/PluralisResearch/node0
+cd node0
+```
+
+## Buildliyelim
+
+```bash
+docker build . -t pluralis_node0
 ```
