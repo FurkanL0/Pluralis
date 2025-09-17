@@ -50,6 +50,14 @@ Enter same passphrase again:
 
 ![image](https://github.com/user-attachments/assets/5fbb7dcd-ab59-4d63-9bc4-a3b1ec89b2a5)
 
+- Port Ekleme : 
+
+<img width="348" height="320" alt="image" src="https://github.com/user-attachments/assets/cf51163f-d83b-4ce5-8b9d-8ca9b434095d" />
+
+<img width="956" height="470" alt="image" src="https://github.com/user-attachments/assets/5ada000f-e6af-4038-a406-794c4e75a4c0" />
+
+- Save'e basıp onaylayın.
+
 - Template : Ubuntu 22.04 VM
 - 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
 - 100 Mbps üstü indirme hızı olan serverlar +
