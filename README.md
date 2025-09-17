@@ -173,6 +173,33 @@ tail -f run.out
 
 <img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
 
+## Çalıştığını Doğrulama ; 
+
+- "Eğitimi Doğrula
+
+Sunucunun diğer eşleri (peers) bulup eğitime katılması birkaç dakika sürebilir. Süreci takip etmek için eğitim loglarını (logs/server.log) veya stdout çıktısını kontrol edin. Kodunuzu Docker içinde çalıştırıyorsanız, stdout çıktısı run.out dosyasında kaydedilir.
+
+Başlangıçta, yetkilendirmenin tamamlandığını ve yeni parametrelerin bir eşten (peer) indirildiğini göreceksiniz:"
+
+- Başlangıç Logları ; 
+
+```bash
+INFO:node0.security.authorization: Access for user username has been granted until 2025-04-15 12:59:12.613600+00:00 UTC
+INFO:node0.security.authorization: Authorization completed
+ 
+ ...
+
+INFO:hivemind.averaging.averager: Downloading parameters from peer <...>
+INFO:hivemind.averaging.averager: Finished downloading state in 0.309s from <...>
+```
+
+- Sonraki Loglar ; 
+
+```bash
+INFO:hivemind.moe.server.runtime: Processed 51 batches in last 60 seconds:
+INFO:hivemind.moe.server.runtime: body2.0.919_backward: 27 batches (100.62 batches/s), 108 examples (402.50 examples/s), avg batch size 4.00
+INFO:hivemind.moe.server.runtime: body2.0.919_forward: 24 batches (382.51 batches/s), 96 examples (1530.02 examples/s), avg batch size 4.00
+```
 ## Manuel Erişiminiz Yok İse Docker VM'den Dosya Çekme 
 
 - Node0 Dizininde olduğunuzdan emin olun. Değilseniz girin.
