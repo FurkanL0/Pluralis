@@ -93,3 +93,8 @@ python3 generate_script.py --use_docker --token <HF_token> --email <email_addres
 ![image](https://github.com/user-attachments/assets/dc54f075-915c-438c-a3b7-9c11b55d7c8f)
 
 
+#### Port : 
+
+```bash
+ufw allow 49200/tcp
+```
