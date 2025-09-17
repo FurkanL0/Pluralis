@@ -33,7 +33,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen file unzip lz4 -y
 ```
 
-## Docker ; 
+## Docker İle Kurulum ; 
 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -107,3 +107,16 @@ python3 generate_script.py --use_docker --token <HF_token> --email <email_addres
 ```bash
 ufw allow 49200/tcp
 ```
+
+## Başlatalım : 
+```bash
+./start_server.sh
+```
+<img width="398" height="105" alt="image" src="https://github.com/user-attachments/assets/ab6e2f6d-74d9-41a0-a780-9105d9ad860b" />
+
+## Loglar ; 
+```bash
+tail -f run.out
+```
+
+<img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
