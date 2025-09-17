@@ -78,7 +78,10 @@ docker build . -t pluralis_node0
 python3 generate_script.py --use_docker --token <HF_token> --email <email_address>
 ```
 
-## HugginFace ; 
+- HF token : Huggingface'den aldığınız token / key.
+- Email : Mail Adresiniz.
+
+## HugginFace Token Almak İçin  ; 
 
 #### Hesap Oluştur : https://huggingface.co/
 
@@ -88,3 +91,5 @@ python3 generate_script.py --use_docker --token <HF_token> --email <email_addres
 #### Key / Token Alıyoruz ; 
 
 ![image](https://github.com/user-attachments/assets/dc54f075-915c-438c-a3b7-9c11b55d7c8f)
+
+
