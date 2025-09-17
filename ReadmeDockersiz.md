@@ -93,6 +93,10 @@ conda create -n node0 python=3.11
 conda activate node0
 ```
 
+<img width="633" height="899" alt="image" src="https://github.com/user-attachments/assets/6749ea02-4352-4b18-b714-89a1f905a208" />
+
+- y yazıp enterleyin.
+
 ## Node0
 ```bash
 pip install .
