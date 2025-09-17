@@ -28,9 +28,8 @@
 - Port Ekleme : 
 <img width="347" height="472" alt="image" src="https://github.com/user-attachments/assets/db312479-cb3b-4784-a36c-d113bb479537" />
 
-<img width="1059" height="872" alt="image" src="https://github.com/user-attachments/assets/dd9c0ad2-b29c-4896-8814-7eccdffdbc9b" />
+<img width="964" height="844" alt="image" src="https://github.com/user-attachments/assets/ce331059-714b-444b-8151-5fc4e62afc49" />
 
-- Genelde 72299 gibi portlar oluyor yönlendirme yapacağız, araya ek olarak -p 72299:49200 ekliyoruz. Artık sizdeki ne ise önüne o gelecek. -p 75555:49200 gibi.
 
 - Save'e basıp onaylayın.
 
