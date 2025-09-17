@@ -102,6 +102,9 @@ conda activate node0
 pip install .
 ```
 
+<img width="741" height="482" alt="image" src="https://github.com/user-attachments/assets/e2ab2880-8fcb-413a-964e-1ef94de43b53" />
+
+
 ## Başlangıç Scriptini Oluşturalım
 
 ```bash
