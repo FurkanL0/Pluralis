@@ -1,8 +1,10 @@
 ## Template -- Ann Port ;
 
+- 
+
 <img width="1077" height="560" alt="image" src="https://github.com/user-attachments/assets/3f347ff3-9575-4c12-b4fa-e6f99061a2cc" />
 
-## 2 ; 
+## 2 - add : -p 49200:49200 ; 
 
 <img width="830" height="871" alt="image" src="https://github.com/user-attachments/assets/d7e80104-f688-4c9a-afbb-b4386f1ffef4" />
 
