@@ -57,7 +57,7 @@ Enter same passphrase again:
 <img width="970" height="730" alt="image" src="https://github.com/user-attachments/assets/2b8db503-38ed-40a3-952a-fbef1242aba4" />
 
 
-- Save'e basıp onaylayın.
+- 49200'ü TCP olarak seçip +'ya basın ve ekleyin ardından Save and Use'e basıp onaylayın.
 
 - Template : Ubuntu 22.04 VM
 - 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
