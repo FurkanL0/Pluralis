@@ -172,3 +172,24 @@ tail -f run.out
 ```
 
 <img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
+
+## Manuel Erişiminiz Yok İse Docker VM'den Dosya Çekme 
+
+- Node0 Dizininde olduğunuzdan emin olun. Değilseniz girin.
+
+```bash
+cd node0
+```
+
+- Http server başlatalım.
+
+```bash
+python3 -m http.server 8080
+```
+
+- Kendi tarayıcınız üzerinden http://localhost:8080/'e girin.
+
+<img width="581" height="526" alt="image" src="https://github.com/user-attachments/assets/457e9408-4a0e-43f4-81b2-306059a75b58" />
+
+- private.key'in üstüne tıklayın indirin. 
+- Sunucuya geri girip CTRL C ile durdurun. 
