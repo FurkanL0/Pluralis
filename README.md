@@ -71,3 +71,20 @@ cd node0
 ```bash
 docker build . -t pluralis_node0
 ```
+
+## Başlangıç Scriptini Oluşturalım
+
+```bash
+python3 generate_script.py --use_docker --token <HF_token> --email <email_address>
+```
+
+## HugginFace ; 
+
+#### Hesap Oluştur : https://huggingface.co/
+
+![image](https://github.com/user-attachments/assets/62af4936-bcd6-4f3b-8f92-4c34cfb0e388)
+
+
+#### Key / Token Alıyoruz ; 
+
+![image](https://github.com/user-attachments/assets/dc54f075-915c-438c-a3b7-9c11b55d7c8f)
