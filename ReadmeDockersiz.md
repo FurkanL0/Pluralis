@@ -1,1 +1,200 @@
+# Pluralis Research Node
+
+![mmDxyPqC_400x400](https://github.com/user-attachments/assets/92d1b63c-cb2f-4240-916e-043d943888b0)
+
+
+| X        | Minimum              |
+|------------------|----------------------------|
+| **CPU**          | 8++ |
+| **RAM**          | 32++ GB                    |
+| **Disk**      | 100 GB+ NVME GB SDD                   |
+| **GPU**      | 16GB Vram++                   |
+| **Internet Speed**      | 100 Mbps (1 Gbps+ recommended) |
+
+
+#### Vast Kayıt : 
+
+| Server Sağlayıcısı        | Kayıt Link              | Neden |
+|------------------|----------------------------|----------------------------|
+| **VAST GPU**          | [Link](https://cloud.vast.ai/?ref_id=228932) | İstediğimiz Sunucular / Kripto Ödeme |
+
+- https://cloud.vast.ai/billing/ 'den Kripto yada Kart ile bakiye ekleyebilirsiniz.
+
+## Sunucu Kiralama : 
+
+![image](https://github.com/user-attachments/assets/5fbb7dcd-ab59-4d63-9bc4-a3b1ec89b2a5)
+
+- Port Ekleme : 
+<img width="347" height="472" alt="image" src="https://github.com/user-attachments/assets/db312479-cb3b-4784-a36c-d113bb479537" />
+
+
+<img width="935" height="826" alt="image" src="https://github.com/user-attachments/assets/b758575b-4f0e-41c3-913e-371bed24410a" />
+
+
+- Save'e basıp onaylayın.
+
+- Template : Ubuntu 22.04 VM
+- 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
+- 100 Mbps üstü indirme hızı olan serverlar +
+- Minimum Container alanını 100+ ayarla
+
+- Sunucunu seçip Rent'e basıp kiralayabilirsiniz.
+
+## Sunucuya Giriş ; 
+
+![image](https://github.com/user-attachments/assets/38947105-2719-420d-9d6e-8a87b718d10b)
+
+- Connect'e basın.
+
+![image](https://github.com/user-attachments/assets/cbba0796-733e-4b2b-9c7f-219cc1c69d55)
+
+- Bağlantı için verdiği komutu CMD / Termius Terminale yapıştırıp enterleyin.
+- Size bağlantı sorusu sorar ise yes yazıp enterleyin.
+
+![image](https://github.com/user-attachments/assets/e3a37172-f583-4bfe-b5b0-fba98c42b0de)
+
+## Project Social Media : 
+- Twitter : https://x.com/PluralisHQ
+
+
+## Server Update : 
+
+```bash
+sudo apt update -y && sudo apt upgrade -y
+```
+## Download Packages :
+
+```bash
+sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen file unzip lz4 -y
+```
+
+## Docker İle Kurulum ; 
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+docker version
+```
+
+## Docker Compose : 
+
+```bash
+VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
+curl -L "https://github.com/docker/compose/releases/download/$VER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
+
+## Docker User
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+## Dosyaları İndirelim 
+
+```bash
+git clone https://github.com/PluralisResearch/node0
+cd node0
+```
+
+## Buildliyelim
+
+```bash
+docker build . -t pluralis_node0
+```
+
+## Başlangıç Scriptini Oluşturalım
+
+```bash
+python3 generate_script.py --use_docker --token <HF_token> --email <email_address>
+```
+
+- HF token : Huggingface'den aldığınız token / key.
+- Email : Mail Adresiniz.
+
+## HugginFace Token Almak İçin  ; 
+
+#### Hesap Oluştur : https://huggingface.co/
+
+![image](https://github.com/user-attachments/assets/62af4936-bcd6-4f3b-8f92-4c34cfb0e388)
+
+
+#### Key / Token Alıyoruz ; 
+
+- Link : https://huggingface.co/settings/tokens/new?tokenType=write
+
+<img width="917" height="384" alt="image" src="https://github.com/user-attachments/assets/9a416825-da62-4c43-b66e-7df36d786af7" />
+
+## Örnek : 
+
+<img width="1251" height="343" alt="image" src="https://github.com/user-attachments/assets/d8bd8286-3fb0-4d04-ae76-924ec8064ea9" />
+
+- Sorduğu soruya "n" yazıp enterliyoruz.
+- File start_server.sh is generated. Run ./start_server.sh to join the experiment. yazısı çıkacak.
+
+
+## Başlatalım : 
+```bash
+./start_server.sh
+```
+<img width="398" height="105" alt="image" src="https://github.com/user-attachments/assets/ab6e2f6d-74d9-41a0-a780-9105d9ad860b" />
+
+## Loglar ; 
+```bash
+tail -f run.out
+```
+
+<img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
+
+## Çalıştığını Doğrulama ; 
+
+- "Eğitimi Doğrula
+
+Sunucunun diğer eşleri (peers) bulup eğitime katılması birkaç dakika sürebilir. Süreci takip etmek için eğitim loglarını (logs/server.log) veya stdout çıktısını kontrol edin. Kodunuzu Docker içinde çalıştırıyorsanız, stdout çıktısı run.out dosyasında kaydedilir.
+
+Başlangıçta, yetkilendirmenin tamamlandığını ve yeni parametrelerin bir eşten (peer) indirildiğini göreceksiniz:"
+
+- Başlangıç Logları ; 
+
+```bash
+INFO:node0.security.authorization: Access for user username has been granted until 2025-04-15 12:59:12.613600+00:00 UTC
+INFO:node0.security.authorization: Authorization completed
+ 
+ ...
+
+INFO:hivemind.averaging.averager: Downloading parameters from peer <...>
+INFO:hivemind.averaging.averager: Finished downloading state in 0.309s from <...>
+```
+
+- Sonraki Loglar ; 
+
+```bash
+INFO:hivemind.moe.server.runtime: Processed 51 batches in last 60 seconds:
+INFO:hivemind.moe.server.runtime: body2.0.919_backward: 27 batches (100.62 batches/s), 108 examples (402.50 examples/s), avg batch size 4.00
+INFO:hivemind.moe.server.runtime: body2.0.919_forward: 24 batches (382.51 batches/s), 96 examples (1530.02 examples/s), avg batch size 4.00
+```
+## Manuel Erişiminiz Yok İse Docker VM'den Dosya Çekme 
+
+- Node0 Dizininde olduğunuzdan emin olun. Değilseniz girin.
+
+```bash
+cd node0
+```
+
+- Http server başlatalım.
+
+```bash
+python3 -m http.server 8080
+```
+
+- Kendi tarayıcınız üzerinden http://localhost:8080/'e girin.
+
+<img width="581" height="526" alt="image" src="https://github.com/user-attachments/assets/457e9408-4a0e-43f4-81b2-306059a75b58" />
+
+- private.key'in üstüne tıklayın indirin. 
+- Sunucuya geri girip CTRL C ile durdurun. 
 
