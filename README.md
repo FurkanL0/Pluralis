@@ -173,7 +173,8 @@ python3 generate_script.py --use_docker --host_port 49200 --announce_port <A_Por
 
 ## Örnek : 
 
-<img width="1251" height="343" alt="image" src="https://github.com/user-attachments/assets/d8bd8286-3fb0-4d04-ae76-924ec8064ea9" />
+<img width="1139" height="370" alt="image" src="https://github.com/user-attachments/assets/d2abc06d-8fff-42be-9632-b7c1fe32f6a7" />
+
 
 - Sorduğu soruya "n" yazıp enterliyoruz.
 - File start_server.sh is generated. Run ./start_server.sh to join the experiment. yazısı çıkacak.
