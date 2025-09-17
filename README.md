@@ -54,7 +54,8 @@ Enter same passphrase again:
 
 <img width="348" height="320" alt="image" src="https://github.com/user-attachments/assets/cf51163f-d83b-4ce5-8b9d-8ca9b434095d" />
 
-<img width="956" height="470" alt="image" src="https://github.com/user-attachments/assets/5ada000f-e6af-4038-a406-794c4e75a4c0" />
+<img width="970" height="730" alt="image" src="https://github.com/user-attachments/assets/2b8db503-38ed-40a3-952a-fbef1242aba4" />
+
 
 - Save'e basıp onaylayın.
 
