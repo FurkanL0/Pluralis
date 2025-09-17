@@ -158,6 +158,9 @@ tail -f run.out
 
 <img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
 
+<img width="668" height="413" alt="image" src="https://github.com/user-attachments/assets/f6badb16-9f7c-4da2-b1d5-a4ed1bf542a7" />
+
+
 ## Çalıştığını Doğrulama ; 
 
 - "Eğitimi Doğrula
