@@ -221,4 +221,4 @@ python3 -m http.server 8080
 <img width="581" height="526" alt="image" src="https://github.com/user-attachments/assets/457e9408-4a0e-43f4-81b2-306059a75b58" />
 
 - private.key'in üstüne tıklayın indirin. 
-- Sunucuya geri girip CTRL C ile durdurun. 
+- Sunucuya geri girip CTRL C ile http serveri durdurun. 
