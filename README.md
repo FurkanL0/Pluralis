@@ -133,6 +133,9 @@ cd node0
 docker build . -t pluralis_node0
 ```
 
+<img width="1372" height="416" alt="image" src="https://github.com/user-attachments/assets/832b816d-6ebe-4df9-a020-d7b378a7df3c" />
+
+
 ## Başlangıç Scriptini Oluşturalım
 
 ```bash
