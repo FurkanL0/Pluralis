@@ -28,10 +28,12 @@
 - Port Ekleme : 
 <img width="347" height="472" alt="image" src="https://github.com/user-attachments/assets/db312479-cb3b-4784-a36c-d113bb479537" />
 
-<img width="964" height="844" alt="image" src="https://github.com/user-attachments/assets/ce331059-714b-444b-8151-5fc4e62afc49" />
+<img width="970" height="675" alt="image" src="https://github.com/user-attachments/assets/6e5e1ddf-76cc-4ce7-a1b3-034906918b3c" />
 
 
-- Save'e basıp onaylayın.
+
+- 49200'ü TCP olarak seçip +'ya basın ve ekleyin ardından Save and Use'e basıp onaylayın.
+
 
 - Template : Ubuntu 22.04 VM
 - 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
