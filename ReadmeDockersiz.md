@@ -139,7 +139,8 @@ python3 generate_script.py --host_port 49200 --announce_port <A_Port> --token <H
 
 ## Örnek : 
 
-<img width="1251" height="343" alt="image" src="https://github.com/user-attachments/assets/d8bd8286-3fb0-4d04-ae76-924ec8064ea9" />
+<img width="1139" height="370" alt="image" src="https://github.com/user-attachments/assets/20f58861-d1c8-4048-ac1c-2efbd4c54e88" />
+
 
 - Sorduğu soruya "n" yazıp enterliyoruz.
 - File start_server.sh is generated. Run ./start_server.sh to join the experiment. yazısı çıkacak.
@@ -149,17 +150,13 @@ python3 generate_script.py --host_port 49200 --announce_port <A_Port> --token <H
 ```bash
 ./start_server.sh
 ```
-<img width="398" height="105" alt="image" src="https://github.com/user-attachments/assets/ab6e2f6d-74d9-41a0-a780-9105d9ad860b" />
 
-## Loglar ; 
-```bash
-tail -f run.out
-```
 
 <img width="1305" height="231" alt="image" src="https://github.com/user-attachments/assets/d6b6da06-2a0e-4817-ba22-9a353142a4ea" />
 
 <img width="668" height="413" alt="image" src="https://github.com/user-attachments/assets/f6badb16-9f7c-4da2-b1d5-a4ed1bf542a7" />
 
+- CTRL A + D ile screenden çıkabilirsiniz.
 
 ## Çalıştığını Doğrulama ; 
 
