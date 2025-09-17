@@ -45,6 +45,11 @@
 
 - Connect'e basın.
 
+<img width="1365" height="499" alt="image" src="https://github.com/user-attachments/assets/80f35785-47bb-4980-a28b-9de0d1a9c0f2" />
+
+- Jupyter Terminal altındaki butona basıp panele erişin. 
+
+
 ## Project Social Media : 
 - Twitter : https://x.com/PluralisHQ
 
