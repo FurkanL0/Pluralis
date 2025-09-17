@@ -93,16 +93,22 @@ git clone https://github.com/PluralisResearch/node0
 cd node0
 ```
 
-## Buildliyelim
+## Conda
 
 ```bash
-docker build . -t pluralis_node0
+conda create -n node0 python=3.11
+conda activate node0
+```
+
+## Node0
+```bash
+pip install .
 ```
 
 ## Başlangıç Scriptini Oluşturalım
 
 ```bash
-python3 generate_script.py --use_docker --token <HF_token> --email <email_address>
+python3 generate_script.py --token <HF_token> --email <email_address>
 ```
 
 - HF token : Huggingface'den aldığınız token / key.
