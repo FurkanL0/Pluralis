@@ -107,7 +107,7 @@ pip install .
 ## Başlangıç Scriptini Oluşturalım
 
 ```bash
-python3 generate_script.py --token <HF_token> --email <email_address>
+python3 generate_script.py --host_port 49200 --announce_port <A_Port> --token <HF_token> --email <email_address>
 ```
 
 - HF token : Huggingface'den aldığınız token / key.
@@ -125,6 +125,17 @@ python3 generate_script.py --token <HF_token> --email <email_address>
 - Link : https://huggingface.co/settings/tokens/new?tokenType=write
 
 <img width="917" height="384" alt="image" src="https://github.com/user-attachments/assets/9a416825-da62-4c43-b66e-7df36d786af7" />
+
+
+## Ann Port Nasıl Alınır ? 
+
+- https://cloud.vast.ai/instances/ - girdik sunucumuzun ip adresinin üstüne tıkladık.
+
+<img width="1180" height="279" alt="image" src="https://github.com/user-attachments/assets/5ff8b92a-6303-4881-8b40-59e6a6a44e08" />
+
+-  sunucuip:misal25ilebaslayanport -> 49200/tcp 'e yönlendiriyor. Peer bağlatımızı böyle yapmalıyız.
+
+<img width="327" height="480" alt="image" src="https://github.com/user-attachments/assets/c9e4aa26-f8f2-4662-91a3-06519de3dd0e" />
 
 ## Örnek : 
 
