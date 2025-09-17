@@ -51,9 +51,9 @@ Enter same passphrase again:
 ![image](https://github.com/user-attachments/assets/5fbb7dcd-ab59-4d63-9bc4-a3b1ec89b2a5)
 
 - Template : Ubuntu 22.04 VM
-- 16 CPU - 3 GHZ üstü EPYC , Ryzen İşlemcili Serverlara Bakabilirsiniz
+- 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
 - 100 Mbps üstü indirme hızı olan serverlar +
-- Minimum Container alanını 250+ ayarla
+- Minimum Container alanını 100+ ayarla
 
 - Sunucunu seçip Rent'e basıp kiralayabilirsiniz.
 
