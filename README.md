@@ -94,6 +94,12 @@ python3 generate_script.py --use_docker --token <HF_token> --email <email_addres
 
 <img width="917" height="384" alt="image" src="https://github.com/user-attachments/assets/9a416825-da62-4c43-b66e-7df36d786af7" />
 
+## Örnek : 
+
+<img width="1251" height="343" alt="image" src="https://github.com/user-attachments/assets/d8bd8286-3fb0-4d04-ae76-924ec8064ea9" />
+
+- Sorduğu soruya "n" yazıp enterliyoruz.
+- File start_server.sh is generated. Run ./start_server.sh to join the experiment. yazısı çıkacak.
 
 
 #### Port : 
