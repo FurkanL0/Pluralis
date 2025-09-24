@@ -182,24 +182,15 @@ INFO:hivemind.moe.server.runtime: Processed 51 batches in last 60 seconds:
 INFO:hivemind.moe.server.runtime: body2.0.919_backward: 27 batches (100.62 batches/s), 108 examples (402.50 examples/s), avg batch size 4.00
 INFO:hivemind.moe.server.runtime: body2.0.919_forward: 24 batches (382.51 batches/s), 96 examples (1530.02 examples/s), avg batch size 4.00
 ```
-## Manuel Erişiminiz Yok İse Docker VM'den Dosya Çekme 
+## Private.key Çekme
 
 - Node0 Dizininde olduğunuzdan emin olun. Değilseniz girin.
 
-```bash
-cd node0
-```
+<img width="1016" height="725" alt="image" src="https://github.com/user-attachments/assets/56fb6260-e0c9-4cad-8567-e2b6ec945bfe" />
 
-- Http server başlatalım.
+<img width="1208" height="625" alt="image" src="https://github.com/user-attachments/assets/72f347d7-5c60-45df-b699-5c033ba44b4a" />
 
-```bash
-python3 -m http.server 8080
-```
-
-- Kendi tarayıcınız üzerinden http://localhost:8080/'e girin.
-
-<img width="581" height="526" alt="image" src="https://github.com/user-attachments/assets/457e9408-4a0e-43f4-81b2-306059a75b58" />
 
 - private.key'in üstüne tıklayın indirin. 
-- Sunucuya geri girip CTRL C ile durdurun. 
+
 
