@@ -35,7 +35,7 @@
 - 49200'ü TCP olarak seçip +'ya basın ve ekleyin ardından Save and Use'e basıp onaylayın.
 
 
-- Template : Ubuntu 22.04 VM
+- Template : https://cloud.vast.ai/?ref_id=228932&creator_id=228932&name=PLURALIS%20NODE0%20TEMPLATE%20NVIDIA%20CUDA
 - 8 CPU Üstü Ryzen Serverlara Bakabilirsiniz
 - 100 Mbps üstü indirme hızı olan serverlar +
 - Minimum Container alanını 100+ ayarla
